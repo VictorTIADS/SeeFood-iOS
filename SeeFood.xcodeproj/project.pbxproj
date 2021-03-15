@@ -13,6 +13,7 @@
 		C4EA389B25FEFCD0007CDB8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EA389925FEFCD0007CDB8A /* Main.storyboard */; };
 		C4EA389D25FEFCD4007CDB8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4EA389C25FEFCD4007CDB8A /* Assets.xcassets */; };
 		C4EA38A025FEFCD4007CDB8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EA389E25FEFCD4007CDB8A /* LaunchScreen.storyboard */; };
+		C4EA38A925FEFD6A007CDB8A /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C4EA38A825FEFD6A007CDB8A /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C4EA389C25FEFCD4007CDB8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4EA389F25FEFCD4007CDB8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4EA38A125FEFCD4007CDB8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4EA38A825FEFD6A007CDB8A /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				C4EA389925FEFCD0007CDB8A /* Main.storyboard */,
 				C4EA389C25FEFCD4007CDB8A /* Assets.xcassets */,
 				C4EA389E25FEFCD4007CDB8A /* LaunchScreen.storyboard */,
+				C4EA38A825FEFD6A007CDB8A /* Inceptionv3.mlmodel */,
 				C4EA38A125FEFCD4007CDB8A /* Info.plist */,
 			);
 			path = SeeFood;
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4EA389825FEFCD0007CDB8A /* ViewController.swift in Sources */,
+				C4EA38A925FEFD6A007CDB8A /* Inceptionv3.mlmodel in Sources */,
 				C4EA389425FEFCD0007CDB8A /* AppDelegate.swift in Sources */,
 				C4EA389625FEFCD0007CDB8A /* SceneDelegate.swift in Sources */,
 			);
@@ -287,7 +291,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V86845QBW;
 				INFOPLIST_FILE = SeeFood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +311,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V86845QBW;
 				INFOPLIST_FILE = SeeFood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
